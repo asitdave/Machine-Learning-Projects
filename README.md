@@ -6,20 +6,20 @@ Welcome to my machine learning projects repository! This portfolio contains a se
 
 ## Recent Project
 
-[Regression: Housing Price Prediction](./Regression/Project-1)
+[Classification: Image Classification using Neural Networks (FasionMNIST)](./Classification/FMNIST-Image-classification/)
 
 
-- **Objective**: Predict the housing prices based on various features such as area, number of bedrooms, amenities, etc.
+- **Objective**: Build a neural network to classify images from the FashionMNIST dataset into 10 categories (e.g., T-shirt, Trouser, Dress).
 
 - **Techniques**:
 
-	-   Data preprocessing and cleaning
-	-	Feature engineering
-	-	Linear Regression, Decision Tree Regressor, Random Forest Regressor
-	-	Model evaluation using MSE, R² score, etc.
+	-   Data exploration and processing
+	-	Neural network design (Convolutional Neural Networks - CNNs)
+	-	Model training, validation, and testing
+	-	Evaluation using metrics like accuracy and confusion matrix
 
 - **Tools & Libraries**:
-	-	Pandas, NumPy, Matplotlib, Seaborn, scikit-learn
+	-	PyTorch, NumPy, Matplotlib, Seaborn
 
 ## Future Projects
 
@@ -29,6 +29,16 @@ This repository will continue to grow as I add more machine learning projects. H
 -	Unsupervised Learning: Clustering and Dimensionality Reduction
 -	Deep Learning: Neural Networks and Computer Vision
 
+## List of Projects
+
+| Sr. No. | Project Name    | Category    | Short Description        |
+|:-------:|:----------------|:-----------:|:-------------------------|
+| 1       | [Housing Price Prediction](./Regression/Housing%20Price%20Prediction/)   | Regression   | Develops a regression model to predict house prices based on various features such as amenities, area, etc. |
+| 2       | [FMNIST Image Classification](./Classification/FMNIST-Image-classification/)    | Classification      | Implements a neural network to classify Fashion-MNIST images into categories like shirts, shoes, and bags.   |
+<!-- | 3       | Project Gamma   | Technology  | AI-powered chatbot.      |
+| 4       | Project Delta   | Finance     | Personal finance tool.   | -->
+
+
 ## Folder Structure
 
 Here's the organization of the repository:
@@ -37,14 +47,37 @@ Here's the organization of the repository:
 /Machine-Learning-Projects
 │
 ├── /Regression
-│   └── /Project-1 (Housing Price Prediction)
+│   └── /Housing Price Prediction
+│
+├── /Classification
+│   └── /FMNIST-Image-Classification
+│       ├── saved_models
+│		│	└── fmnist_model.pth
+│		├──src
+│	    │   ├── __init__.py
+│		│	├── data_preparation.py
+│		│	├── model.py
+│		│	├── train.py
+│		│	├── predict.py
+│	    │   ├── evaluate.py
+│       │   ├── utils.py
+│       ├── main.py
+│       ├── NN-Classification-FMNIST.ipynb
+│       └── README.md
 │
 └── README.md
 ```
     
 ## How to Run
 
-To run the code in this repository, ensure you have the following dependencies installed:
+To run the code in this repository, perform the following steps:
+
+1. Clone the repository
+```bash
+git clone https://github.com/asitdave/Machine-Learning-Projects.git
+```
+
+2. Create a virtual environment to install required dependencies.
 
 ```bash
 pip install -r requirements.txt
@@ -56,6 +89,7 @@ or (for Anaconda)
 conda env create -f ML-proj-venv.yml
 conda activate ML-proj-venv.yml
 ```
+
 
 
 ## Contributing
