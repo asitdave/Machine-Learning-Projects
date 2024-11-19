@@ -38,4 +38,4 @@ The Random Forest Regressor emerged as the best-performing model, providing a ba
 - Correlation heatmap to visualize relationships between features.
 
 
-[Main page](/ML-Portfolio/)
+[Main page](/Machine-Learning-Projects/)

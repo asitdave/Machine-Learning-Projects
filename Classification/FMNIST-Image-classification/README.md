@@ -34,4 +34,4 @@ You can also test the model on custom real-world images using the scripts provid
 
 To test the model on external images, place your image files in a designated directory (e.g., test_images/) and modify the paths in `evaluate.py` accordingly. Use `main.py` or the notebook to predict their labels.
 
-[Main page](/ML-Portfolio/)
+[Main page](/Machine-Learning-Projects/)
