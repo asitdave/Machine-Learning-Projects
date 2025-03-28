@@ -1,6 +1,6 @@
 ## Transaction Anomaly Detection using Machine Learning
 
-This project focuses on detecting anomalies in financial transactions using machine learning techniques. By analyzing transaction patterns, we can identify suspicious activities that may indicate fraud. The project applies Isolation Forest for anomaly detection, supported by data visualization
+This project focuses on detecting anomalies in financial transactions using machine learning techniques. By analyzing transaction patterns, we can identify suspicious activities that may indicate fraud. The project applies Isolation Forest for anomaly detection, supported by data visualization.
 
 ### Project highlights
 - **Objective**: Identify suspicious financial transactions that deviate significantly from normal behavior.

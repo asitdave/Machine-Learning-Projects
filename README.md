@@ -6,20 +6,17 @@ Welcome to my machine learning projects repository! This portfolio contains a se
 
 ## Recent Project
 
-[Transaction Anomaly Detection](./Classification/Transaction-Anomaly-Detection/)
+[User Segmentation and App Uninstall Prediction](./Clustering/App-Users-Segmentation/)
 
+**Objective**:
+- Identify key factors influencing user retention and churn.
+- Segment users based on behavior using clustering techniques.
+- Train machine learning models to predict app uninstallation.
+- Implement an interactive system for real-time user predictions.
 
-- **Objective**: Identify suspicious financial transactions that deviate significantly from normal behavior.
-
-- **Techniques**:
-
-	-   Data exploration and processing
-	-	Anomaly detection using Statisticl methods and Machine Learning model
-	-	Model training and evaluation using Isolation Forest
-	- 	Balancing data using SMOTE to improve model robustness.
-
-- **Tools & Libraries**:
-	-	sklearn, imblearn, Matplotlib, Seaborn, Plotly
+**Techniques Used**:
+- User Segmentation: Clustering with K-Means to categorize user behaviors.
+- Churn Prediction: Classification using Random Forest and XGBoost.
 
 ## Future Projects
 
@@ -36,7 +33,7 @@ This repository will continue to grow as I add more machine learning projects. H
 | 1       | [Housing Price Prediction](./Regression/Housing%20Price%20Prediction/)   | Regression   | Develops a regression model to predict house prices based on various features such as amenities, area, etc. |
 | 2       | [FMNIST Image Classification](./Classification/FMNIST-Image-classification/)    | Classification      | Implements a neural network to classify Fashion-MNIST images into categories like shirts, shoes, and bags.   |
 | 3       | [Transaction Anomaly Detection](./Classification/Transaction-Anomaly-Detection/)   | Classification  | Detecting anomalies in financial transactions using Isolation Forest.      |
-<!-- | 4       | Project Delta   | Finance     | Personal finance tool.   | -->
+| 4       | [User Segmentation and App Uninstall Prediction](./Clustering/App-Users-Segmentation/)   | Clustering     | Analyze user behaviour to segment users and predict app uninstallation using K-means, Random Forest and XGBoost.   |
 
 
 ## Folder Structure
@@ -52,9 +49,9 @@ Here's the organization of the repository:
 ├── /Classification
 │   ├── /FMNIST-Image-Classification
 │   └── /Transaction-Anomaly-Detection
-│		├── data
-│		│	└── transaction_anomalies_dataset.csv
-│       └── Transaction-anomaly-detection.ipynb
+│	
+├── /Clustering
+│	└── /App-Users-Segmentation
 │
 └── README.md
 ```
