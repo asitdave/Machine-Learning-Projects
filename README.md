@@ -6,37 +6,39 @@ Welcome to my machine learning projects repository! This portfolio contains a se
 
 ## Recent Project
 
-[User Segmentation and App Uninstall Prediction](./Clustering/App-Users-Segmentation/)
+[Aircraft Defect Detection and Automated Image Captioning](./Aircraft-Defect-Detection-and-Automated-Image-Captioning/)
 
 **Objective**:
-- Identify key factors influencing user retention and churn.
-- Segment users based on behavior using clustering techniques.
-- Train machine learning models to predict app uninstallation.
-- Implement an interactive system for real-time user predictions.
+- Use the VGG16 pretrained model for image classification.
+- Prepare and preprocess image data.
+- Evaluate the model's performance and visualize predictions on test data.
+- Use BLIP pretrained model for image captioning and summarization.
+- Generate caption and summary for an aircraft image.
 
-**Techniques Used**:
+<!-- **Techniques Used**:
 - User Segmentation: Clustering with K-Means to categorize user behaviors.
-- Churn Prediction: Classification using Random Forest and XGBoost.
+-  -->
 
 ## Future Projects
 
 This repository will continue to grow as I add more machine learning projects. Here are the general areas that will be covered:
 
--   Supervised Learning: Classification and Regression problems
--	Unsupervised Learning: Clustering and Dimensionality Reduction
--	Deep Learning: Neural Networks and Computer Vision
+-   **Supervised Learning**: Classification and Regression problems
+-	**Unsupervised Learning**: Clustering and Dimensionality Reduction
+-	**Deep Learning**: Neural Networks and Computer Vision
 
 ## List of Projects
 
 | Sr. No. | Project Name    | Category    | Short Description        |
 |:-------:|:----------------|:-----------:|:-------------------------|
-| 1       | [Housing Price Prediction](./Regression/Housing%20Price%20Prediction/)   | Regression   | Develops a regression model to predict house prices based on various features such as amenities, area, etc. |
-| 2       | [FMNIST Image Classification](./Classification/FMNIST-Image-classification/)    | Classification      | Implements a neural network to classify Fashion-MNIST images into categories like shirts, shoes, and bags.   |
-| 3       | [Transaction Anomaly Detection](./Classification/Transaction-Anomaly-Detection/)   | Classification  | Detecting anomalies in financial transactions using Isolation Forest.      |
-| 4       | [User Segmentation and App Uninstall Prediction](./Clustering/App-Users-Segmentation/)   | Clustering     | Analyze user behaviour to segment users and predict app uninstallation using K-means, Random Forest and XGBoost.   |
+| 1       | [Housing Price Prediction](./Housing%20Price%20Prediction/)   | Regression   | Developed a regression model to predict house prices based on various features such as amenities, area, and location. |
+| 2       | [FMNIST Image Classification](./FMNIST-Image-classification/)    | Classification      | Implemented a neural network to classify Fashion-MNIST images into categories like shirts, shoes, and bags.   |
+| 3       | [Transaction Anomaly Detection](./Transaction-Anomaly-Detection/)   | Classification  | Detected anomalies in financial transactions using Isolation Forest.      |
+| 4       | [User Segmentation and App Uninstall Prediction](./App-Users-Segmentation/)   | Clustering     | Analyzed user behaviour to segment users and predict app uninstallation using K-means, Random Forest, and XGBoost.   |
+| 5       | [Aircraft Defect Detection and Automated Image Captioning](./Aircraft-Defect-Detection-and-Automated-Image-Captioning/)     | Classification & Computer Vision   |  Developed a deep learning pipeline for aircraft defect detection via image classification and automated image captioning/summarization using pretrained models. |
 
 
-## Folder Structure
+<!-- ## Folder Structure
 
 Here's the organization of the repository:
 
@@ -54,7 +56,7 @@ Here's the organization of the repository:
 │	└── /App-Users-Segmentation
 │
 └── README.md
-```
+``` -->
 
 <!-- /FMNIST-Image-Classification
 │       ├── saved_models
